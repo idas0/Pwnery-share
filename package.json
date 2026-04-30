@@ -1,7 +1,6 @@
 {
   "name": "pwnery",
   "version": "1.0.0",
-  "description": "Stock data ingestion from Stock In The Channel to Amazon listings",
   "private": true,
   "main": "dist/workers/sqsRepricer.js",
   "keywords": [
