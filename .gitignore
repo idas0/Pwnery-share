@@ -1,0 +1,27 @@
+# Dependencies & build
+node_modules/
+dist/
+dist_old/
+dist_temp/
+coverage/
+
+# Env & local secrets (never push)
+.env
+.env.*
+!.env.example
+
+# Runtime / noise
+logs/
+tmp/
+.runtime-state/
+*.log
+pnpm-lock.yaml
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Deploy / tooling artifacts (see PM2_DEPLOYMENT.md Lambda packaging)
+.aws/
